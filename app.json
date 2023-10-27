@@ -1,7 +1,7 @@
 {
-    "name": "rgnk wabot",
+    "name": "KING MD",
     "description": "WhatsApp public/user bot",
-    "logo": "",
+    "logo": "https://telegra.ph/file/895dfdc1722107c16366f.jpg",
     "keywords": ["WhatsApp"],
     "repository": "https://github.com/souravkl11/raganork-md",
     "website":   "https://raganork.ml",
@@ -20,7 +20,7 @@
         },
         "READ_MESSAGES": {
             "description": "Bot will read all messages. Can be also false",
-            "required": true,
+            "required": false,
             "value":"false"
         },
         "READ_COMMAND": {
@@ -61,11 +61,11 @@
         "MODE": {
             "description": "Private or public",
             "required": true,
-            "value":"private"
+            "value":"public"
         },
         "SUDO": {
-            "description": "These numbers can control your bot. seperate with commas",
-            "required": false,
+            "description": "+12515897347",
+            "required":true ,
             "value":""
         },
         "BLOCK_CHAT": {
@@ -80,7 +80,7 @@
         },
         "ALLOWED": {
             "description": "Country codes allowed by antifake",
-            "required": false,
+            "required": true,
             "value":"91,48"
         },
         "WARN": {
@@ -90,21 +90,21 @@
         },
         "LANGUAGE": {
             "description": "Available languages: english,manglish,turkish",
-            "required": false,
+            "required": true,
             "value":"english"
         },
         "AUTO_READ_STATUS": {
             "description": "View status updates automatically",
-            "required": false,
+            "required": true,
             "value":"true"
         },
         "ALIVE": {
             "description": "Alive message, customize your alive msg by looking wiki",
-            "required": false,
+            "required": true ,
             "value":"_Bot is alive since {uptime}_"
         },
        "SESSION": {
-            "description": "Your session code, obtained by scanning QR",
+            "description": "2bae24d0eba36da97ec6cafa3409120a",
             "required": true         
         }
     },
